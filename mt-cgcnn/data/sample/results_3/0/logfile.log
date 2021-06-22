@@ -1,0 +1,76 @@
+Length of dataset:  100
+2021-06-12 21:24:21.316245
+Cuda enabled:  False
+{'root_dir': 'data/sample/', 'save_dir': 'data/sample/results_3/0/', 'disable_cuda': False, 'workers': 0, 'epochs': 3, 'start_epoch': 0, 'batch_size': 10, 'lr': 0.01, 'lr_milestones': [200, 400, 600, 800], 'momentum': 0.9, 'weight_decay': 0, 'print_freq': 10, 'resume': '', 'train_size': 60, 'val_size': 20, 'test_size': 20, 'optimizer': 'Adam', 'atom_fea_len': 64, 'h_fea_len': 32, 'n_conv': 1, 'n_hp': 1, 'scheduler': 'MultiStepLR', 'metric': 'mae', 'seed': 887, 'weights': None, 'dropout': 0, 'cuda': False}
+Loading datasets...
+Predicting  2  properties!!
+Epoch: [0][0/6]	Time 0.157 (0.157)	Data 0.002 (0.002)	Loss 1.4329 (1.4329)	ERR 1.426 (1.426)
+Training Error: 1.247  Loss: 1.317
+Test: [0/2]	Time 0.018 (0.018)	Loss 0.8659 (0.8659)	ERR 1.105 (1.105)
+ * ERR 1.157 LOSS 1.012
+Saving best parameters...
+Epoch: [1][0/6]	Time 0.060 (0.060)	Data 0.001 (0.001)	Loss 1.0361 (1.0361)	ERR 1.245 (1.245)
+Training Error: 1.118  Loss: 0.976
+Test: [0/2]	Time 0.023 (0.023)	Loss 0.4495 (0.4495)	ERR 0.773 (0.773)
+ * ERR 0.759 LOSS 0.459
+Saving best parameters...
+Epoch: [2][0/6]	Time 0.037 (0.037)	Data 0.001 (0.001)	Loss 0.6793 (0.6793)	ERR 0.967 (0.967)
+Training Error: 0.950  Loss: 0.793
+Test: [0/2]	Time 0.027 (0.027)	Loss 0.5401 (0.5401)	ERR 0.769 (0.769)
+ * ERR 0.727 LOSS 0.443
+Saving best parameters...
+Length of dataset:  100
+2021-06-12 21:25:49.312302
+Cuda enabled:  False
+{'root_dir': 'data/sample/', 'save_dir': 'data/sample/results_3/0/', 'disable_cuda': False, 'workers': 0, 'epochs': 3, 'start_epoch': 0, 'batch_size': 10, 'lr': 0.01, 'lr_milestones': [200, 400, 600, 800], 'momentum': 0.9, 'weight_decay': 0, 'print_freq': 10, 'resume': '', 'train_size': 60, 'val_size': 20, 'test_size': 20, 'optimizer': 'Adam', 'atom_fea_len': 64, 'h_fea_len': 32, 'n_conv': 1, 'n_hp': 1, 'scheduler': 'MultiStepLR', 'metric': 'mae', 'seed': 887, 'weights': None, 'dropout': 0, 'cuda': False}
+Loading datasets...
+Predicting  2  properties!!
+Epoch: [0][0/6]	Time 0.137 (0.137)	Data 0.001 (0.001)	Loss 1.0368 (1.0368)	ERR 1.162 (1.162)
+Training Error: 1.254  Loss: 1.271
+Test: [0/2]	Time 0.009 (0.009)	Loss 0.5395 (0.5395)	ERR 0.787 (0.787)
+ * ERR 0.900 LOSS 0.659
+Saving best parameters...
+Epoch: [1][0/6]	Time 0.055 (0.055)	Data 0.001 (0.001)	Loss 1.0523 (1.0523)	ERR 1.135 (1.135)
+Training Error: 0.932  Loss: 0.724
+Test: [0/2]	Time 0.011 (0.011)	Loss 1.3603 (1.3603)	ERR 1.089 (1.089)
+ * ERR 1.170 LOSS 1.358
+Epoch: [2][0/6]	Time 0.042 (0.042)	Data 0.001 (0.001)	Loss 0.8332 (0.8332)	ERR 0.971 (0.971)
+Training Error: 0.847  Loss: 0.606
+Test: [0/2]	Time 0.017 (0.017)	Loss 1.1431 (1.1431)	ERR 1.200 (1.200)
+ * ERR 1.236 LOSS 1.270
+---------Evaluate Model on Test Set---------------
+Test: [0/2]	Time 0.014 (0.014)	Loss 0.7592 (0.7592)	ERR 1.033 (1.033)
+Test error per property: [0.45193347 1.4740365 ]
+Test loss per property: [0.30252776 1.0239676 ]
+ ** ERR 0.963 LOSS 0.663
+Best Error is:  0.8996105194091797
+2021-06-12 21:25:55.992982
+Time taken  6.680675983428955
+Length of dataset:  100
+2021-06-12 21:29:53.979131
+Cuda enabled:  False
+{'root_dir': 'data/sample/', 'save_dir': 'data/sample/results_3/0/', 'disable_cuda': False, 'workers': 0, 'epochs': 3, 'start_epoch': 0, 'batch_size': 10, 'lr': 0.01, 'lr_milestones': [200, 400, 600, 800], 'momentum': 0.9, 'weight_decay': 0, 'print_freq': 10, 'resume': '', 'train_size': 60, 'val_size': 20, 'test_size': 20, 'optimizer': 'Adam', 'atom_fea_len': 64, 'h_fea_len': 32, 'n_conv': 1, 'n_hp': 1, 'scheduler': 'MultiStepLR', 'metric': 'mae', 'seed': 887, 'weights': None, 'dropout': 0, 'cuda': False}
+Loading datasets...
+Predicting  2  properties!!
+Epoch: [0][0/6]	Time 0.120 (0.120)	Data 0.001 (0.001)	Loss 1.3098 (1.3098)	ERR 1.438 (1.438)
+Training Error: 1.432  Loss: 1.591
+Test: [0/2]	Time 0.012 (0.012)	Loss 0.9852 (0.9852)	ERR 1.182 (1.182)
+ * ERR 1.241 LOSS 1.116
+Saving best parameters...
+Epoch: [1][0/6]	Time 0.037 (0.037)	Data 0.001 (0.001)	Loss 1.3421 (1.3421)	ERR 1.369 (1.369)
+Training Error: 1.074  Loss: 0.982
+Test: [0/2]	Time 0.014 (0.014)	Loss 0.6807 (0.6807)	ERR 0.917 (0.917)
+ * ERR 0.814 LOSS 0.572
+Saving best parameters...
+Epoch: [2][0/6]	Time 0.068 (0.068)	Data 0.001 (0.001)	Loss 0.9378 (0.9378)	ERR 1.085 (1.085)
+Training Error: 0.969  Loss: 0.768
+Test: [0/2]	Time 0.013 (0.013)	Loss 1.2894 (1.2894)	ERR 1.294 (1.294)
+ * ERR 1.100 LOSS 1.053
+---------Evaluate Model on Test Set---------------
+Test: [0/2]	Time 0.010 (0.010)	Loss 0.5699 (0.5699)	ERR 0.837 (0.837)
+Test error per property: [0.66953105 1.0670121 ]
+Test loss per property: [0.5649293 0.6112103]
+ ** ERR 0.868 LOSS 0.588
+Best Error is:  0.8142239451408386
+2021-06-12 21:29:59.187788
+Time taken  5.208658933639526

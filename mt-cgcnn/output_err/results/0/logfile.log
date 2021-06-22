@@ -1,0 +1,5 @@
+Length of dataset:  36837
+2021-06-12 02:00:15.968986
+Cuda enabled:  False
+{'root_dir': 'data/test/', 'save_dir': 'data/test/results/0/', 'disable_cuda': False, 'workers': 0, 'epochs': 3000, 'start_epoch': 0, 'batch_size': 256, 'lr': 0.01, 'lr_milestones': [200, 400, 600, 800], 'momentum': 0.9, 'weight_decay': 0, 'print_freq': 10, 'resume': '', 'train_size': 22102, 'val_size': 7367, 'test_size': 7368, 'optimizer': 'Adam', 'atom_fea_len': 64, 'h_fea_len': 32, 'n_conv': 1, 'n_hp': 1, 'scheduler': 'MultiStepLR', 'metric': 'mae', 'seed': 887, 'weights': None, 'dropout': 0, 'cuda': False}
+Loading datasets...

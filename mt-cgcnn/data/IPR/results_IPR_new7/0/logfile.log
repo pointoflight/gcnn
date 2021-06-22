@@ -1,0 +1,850 @@
+Length of dataset:  208
+2021-06-19 09:10:13.808291
+Cuda enabled:  False
+{'root_dir': 'data/IPR/', 'save_dir': 'data/IPR/results_IPR_new7/0/', 'disable_cuda': False, 'workers': 0, 'epochs': 200, 'start_epoch': 0, 'batch_size': 128, 'lr': 0.05, 'lr_milestones': [200, 400, 600, 800], 'momentum': 0.9, 'weight_decay': 0, 'print_freq': 10, 'resume': '', 'train_size': 166, 'val_size': 20, 'test_size': 22, 'optimizer': 'Adam', 'atom_fea_len': 64, 'h_fea_len': 32, 'n_conv': 4, 'n_hp': 1, 'scheduler': 'MultiStepLR', 'metric': 'mae', 'seed': 887, 'weights': None, 'dropout': 0, 'cuda': False}
+Loading datasets...
+Predicting  3  properties!!
+---pre-trained model loaded---
+Epoch: [0][0/2]	Time 2.156 (2.156)	Data 0.006 (0.006)	Loss 1.0200 (1.0200)	ERR 0.210 (0.210)
+Training Error: 0.659  Loss: 17.787
+Test: [0/1]	Time 0.033 (0.033)	Loss 105593776.0000 (105593776.0000)	ERR 1951.822 (1951.822)
+ * ERR 1951.822 LOSS 105593776.000
+Saving best parameters...
+Epoch: [1][0/2]	Time 2.077 (2.077)	Data 0.005 (0.005)	Loss 6.1133 (6.1133)	ERR 0.567 (0.567)
+Training Error: 0.553  Loss: 5.764
+Test: [0/1]	Time 0.030 (0.030)	Loss 1743879.6250 (1743879.6250)	ERR 281.832 (281.832)
+ * ERR 281.832 LOSS 1743879.625
+Saving best parameters...
+Epoch: [2][0/2]	Time 2.121 (2.121)	Data 0.005 (0.005)	Loss 2.3819 (2.3819)	ERR 0.368 (0.368)
+Training Error: 0.358  Loss: 2.231
+Test: [0/1]	Time 0.030 (0.030)	Loss 22007.1758 (22007.1758)	ERR 32.486 (32.486)
+ * ERR 32.486 LOSS 22007.176
+Saving best parameters...
+Epoch: [3][0/2]	Time 2.088 (2.088)	Data 0.005 (0.005)	Loss 1.3459 (1.3459)	ERR 0.274 (0.274)
+Training Error: 0.260  Loss: 1.219
+Test: [0/1]	Time 0.029 (0.029)	Loss 391.8237 (391.8237)	ERR 4.382 (4.382)
+ * ERR 4.382 LOSS 391.824
+Saving best parameters...
+Epoch: [4][0/2]	Time 2.004 (2.004)	Data 0.005 (0.005)	Loss 1.0071 (1.0071)	ERR 0.217 (0.217)
+Training Error: 0.210  Loss: 0.929
+Test: [0/1]	Time 0.031 (0.031)	Loss 1.8898 (1.8898)	ERR 0.280 (0.280)
+ * ERR 0.280 LOSS 1.890
+Saving best parameters...
+Epoch: [5][0/2]	Time 2.022 (2.022)	Data 0.006 (0.006)	Loss 0.9402 (0.9402)	ERR 0.192 (0.192)
+Training Error: 0.188  Loss: 0.887
+Test: [0/1]	Time 0.032 (0.032)	Loss 6.0269 (6.0269)	ERR 0.469 (0.469)
+ * ERR 0.469 LOSS 6.027
+Epoch: [6][0/2]	Time 2.141 (2.141)	Data 0.005 (0.005)	Loss 0.9504 (0.9504)	ERR 0.184 (0.184)
+Training Error: 0.180  Loss: 0.898
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.9388 (2.9388)	ERR 0.304 (0.304)
+ * ERR 0.304 LOSS 2.939
+Epoch: [7][0/2]	Time 2.048 (2.048)	Data 0.005 (0.005)	Loss 0.9595 (0.9595)	ERR 0.182 (0.182)
+Training Error: 0.179  Loss: 0.907
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.0769 (2.0769)	ERR 0.288 (0.288)
+ * ERR 0.288 LOSS 2.077
+Epoch: [8][0/2]	Time 2.117 (2.117)	Data 0.005 (0.005)	Loss 1.0138 (1.0138)	ERR 0.191 (0.191)
+Training Error: 0.180  Loss: 0.910
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9543 (1.9543)	ERR 0.281 (0.281)
+ * ERR 0.281 LOSS 1.954
+Epoch: [9][0/2]	Time 2.117 (2.117)	Data 0.005 (0.005)	Loss 0.8647 (0.8647)	ERR 0.174 (0.174)
+Training Error: 0.181  Loss: 0.905
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9343 (1.9343)	ERR 0.280 (0.280)
+ * ERR 0.280 LOSS 1.934
+Saving best parameters...
+Epoch: [10][0/2]	Time 2.130 (2.130)	Data 0.005 (0.005)	Loss 0.6371 (0.6371)	ERR 0.160 (0.160)
+Training Error: 0.181  Loss: 0.892
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9303 (1.9303)	ERR 0.280 (0.280)
+ * ERR 0.280 LOSS 1.930
+Saving best parameters...
+Epoch: [11][0/2]	Time 2.133 (2.133)	Data 0.005 (0.005)	Loss 0.8633 (0.8633)	ERR 0.181 (0.181)
+Training Error: 0.183  Loss: 0.887
+Test: [0/1]	Time 0.030 (0.030)	Loss 1.9291 (1.9291)	ERR 0.280 (0.280)
+ * ERR 0.280 LOSS 1.929
+Saving best parameters...
+Epoch: [12][0/2]	Time 2.100 (2.100)	Data 0.005 (0.005)	Loss 0.8370 (0.8370)	ERR 0.183 (0.183)
+Training Error: 0.184  Loss: 0.882
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9290 (1.9290)	ERR 0.280 (0.280)
+ * ERR 0.280 LOSS 1.929
+Saving best parameters...
+Epoch: [13][0/2]	Time 2.128 (2.128)	Data 0.005 (0.005)	Loss 0.8461 (0.8461)	ERR 0.182 (0.182)
+Training Error: 0.185  Loss: 0.881
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9287 (1.9287)	ERR 0.279 (0.279)
+ * ERR 0.279 LOSS 1.929
+Saving best parameters...
+Epoch: [14][0/2]	Time 2.048 (2.048)	Data 0.005 (0.005)	Loss 0.8642 (0.8642)	ERR 0.183 (0.183)
+Training Error: 0.185  Loss: 0.882
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9280 (1.9280)	ERR 0.279 (0.279)
+ * ERR 0.279 LOSS 1.928
+Saving best parameters...
+Epoch: [15][0/2]	Time 2.111 (2.111)	Data 0.005 (0.005)	Loss 0.9937 (0.9937)	ERR 0.197 (0.197)
+Training Error: 0.185  Loss: 0.882
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9269 (1.9269)	ERR 0.279 (0.279)
+ * ERR 0.279 LOSS 1.927
+Saving best parameters...
+Epoch: [16][0/2]	Time 2.005 (2.005)	Data 0.004 (0.004)	Loss 0.9098 (0.9098)	ERR 0.188 (0.188)
+Training Error: 0.185  Loss: 0.881
+Test: [0/1]	Time 0.031 (0.031)	Loss 1.9270 (1.9270)	ERR 0.279 (0.279)
+ * ERR 0.279 LOSS 1.927
+Saving best parameters...
+Epoch: [17][0/2]	Time 2.119 (2.119)	Data 0.005 (0.005)	Loss 0.8687 (0.8687)	ERR 0.184 (0.184)
+Training Error: 0.185  Loss: 0.882
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9277 (1.9277)	ERR 0.278 (0.278)
+ * ERR 0.278 LOSS 1.928
+Saving best parameters...
+Epoch: [18][0/2]	Time 1.989 (1.989)	Data 0.005 (0.005)	Loss 0.8887 (0.8887)	ERR 0.184 (0.184)
+Training Error: 0.185  Loss: 0.881
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9281 (1.9281)	ERR 0.278 (0.278)
+ * ERR 0.278 LOSS 1.928
+Saving best parameters...
+Epoch: [19][0/2]	Time 2.059 (2.059)	Data 0.005 (0.005)	Loss 0.7586 (0.7586)	ERR 0.174 (0.174)
+Training Error: 0.185  Loss: 0.881
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9284 (1.9284)	ERR 0.278 (0.278)
+ * ERR 0.278 LOSS 1.928
+Saving best parameters...
+Epoch: [20][0/2]	Time 2.036 (2.036)	Data 0.005 (0.005)	Loss 0.9762 (0.9762)	ERR 0.193 (0.193)
+Training Error: 0.185  Loss: 0.880
+Test: [0/1]	Time 0.030 (0.030)	Loss 1.9288 (1.9288)	ERR 0.277 (0.277)
+ * ERR 0.277 LOSS 1.929
+Saving best parameters...
+Epoch: [21][0/2]	Time 2.007 (2.007)	Data 0.005 (0.005)	Loss 0.9724 (0.9724)	ERR 0.192 (0.192)
+Training Error: 0.184  Loss: 0.878
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9306 (1.9306)	ERR 0.277 (0.277)
+ * ERR 0.277 LOSS 1.931
+Saving best parameters...
+Epoch: [22][0/2]	Time 2.144 (2.144)	Data 0.007 (0.007)	Loss 0.7702 (0.7702)	ERR 0.174 (0.174)
+Training Error: 0.184  Loss: 0.877
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9331 (1.9331)	ERR 0.276 (0.276)
+ * ERR 0.276 LOSS 1.933
+Saving best parameters...
+Epoch: [23][0/2]	Time 2.171 (2.171)	Data 0.007 (0.007)	Loss 0.9834 (0.9834)	ERR 0.190 (0.190)
+Training Error: 0.183  Loss: 0.874
+Test: [0/1]	Time 0.032 (0.032)	Loss 1.9352 (1.9352)	ERR 0.276 (0.276)
+ * ERR 0.276 LOSS 1.935
+Saving best parameters...
+Epoch: [24][0/2]	Time 2.103 (2.103)	Data 0.005 (0.005)	Loss 0.9348 (0.9348)	ERR 0.187 (0.187)
+Training Error: 0.181  Loss: 0.871
+Test: [0/1]	Time 0.031 (0.031)	Loss 1.9384 (1.9384)	ERR 0.275 (0.275)
+ * ERR 0.275 LOSS 1.938
+Saving best parameters...
+Epoch: [25][0/2]	Time 2.145 (2.145)	Data 0.005 (0.005)	Loss 0.8102 (0.8102)	ERR 0.175 (0.175)
+Training Error: 0.179  Loss: 0.866
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9425 (1.9425)	ERR 0.273 (0.273)
+ * ERR 0.273 LOSS 1.943
+Saving best parameters...
+Epoch: [26][0/2]	Time 2.116 (2.116)	Data 0.004 (0.004)	Loss 0.8975 (0.8975)	ERR 0.182 (0.182)
+Training Error: 0.177  Loss: 0.859
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9485 (1.9485)	ERR 0.271 (0.271)
+ * ERR 0.271 LOSS 1.949
+Saving best parameters...
+Epoch: [27][0/2]	Time 2.070 (2.070)	Data 0.005 (0.005)	Loss 0.9312 (0.9312)	ERR 0.180 (0.180)
+Training Error: 0.173  Loss: 0.850
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9621 (1.9621)	ERR 0.268 (0.268)
+ * ERR 0.268 LOSS 1.962
+Saving best parameters...
+Epoch: [28][0/2]	Time 1.988 (1.988)	Data 0.006 (0.006)	Loss 0.9940 (0.9940)	ERR 0.181 (0.181)
+Training Error: 0.168  Loss: 0.840
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.0052 (2.0052)	ERR 0.264 (0.264)
+ * ERR 0.264 LOSS 2.005
+Saving best parameters...
+Epoch: [29][0/2]	Time 1.990 (1.990)	Data 0.006 (0.006)	Loss 1.0230 (1.0230)	ERR 0.180 (0.180)
+Training Error: 0.162  Loss: 0.837
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.1053 (2.1053)	ERR 0.261 (0.261)
+ * ERR 0.261 LOSS 2.105
+Saving best parameters...
+Epoch: [30][0/2]	Time 2.066 (2.066)	Data 0.005 (0.005)	Loss 0.9785 (0.9785)	ERR 0.167 (0.167)
+Training Error: 0.155  Loss: 0.829
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.2390 (2.2390)	ERR 0.259 (0.259)
+ * ERR 0.259 LOSS 2.239
+Saving best parameters...
+Epoch: [31][0/2]	Time 2.101 (2.101)	Data 0.006 (0.006)	Loss 0.7912 (0.7912)	ERR 0.145 (0.145)
+Training Error: 0.151  Loss: 0.839
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.3005 (2.3005)	ERR 0.259 (0.259)
+ * ERR 0.259 LOSS 2.301
+Epoch: [32][0/2]	Time 2.123 (2.123)	Data 0.005 (0.005)	Loss 0.7920 (0.7920)	ERR 0.145 (0.145)
+Training Error: 0.148  Loss: 0.836
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.2257 (2.2257)	ERR 0.258 (0.258)
+ * ERR 0.258 LOSS 2.226
+Saving best parameters...
+Epoch: [33][0/2]	Time 2.083 (2.083)	Data 0.005 (0.005)	Loss 0.7295 (0.7295)	ERR 0.144 (0.144)
+Training Error: 0.149  Loss: 0.817
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.1180 (2.1180)	ERR 0.262 (0.262)
+ * ERR 0.262 LOSS 2.118
+Epoch: [34][0/2]	Time 2.173 (2.173)	Data 0.005 (0.005)	Loss 0.7656 (0.7656)	ERR 0.149 (0.149)
+Training Error: 0.152  Loss: 0.804
+Test: [0/1]	Time 0.034 (0.034)	Loss 2.0298 (2.0298)	ERR 0.266 (0.266)
+ * ERR 0.266 LOSS 2.030
+Epoch: [35][0/2]	Time 2.422 (2.422)	Data 0.006 (0.006)	Loss 0.7826 (0.7826)	ERR 0.155 (0.155)
+Training Error: 0.158  Loss: 0.801
+Test: [0/1]	Time 0.036 (0.036)	Loss 2.0052 (2.0052)	ERR 0.269 (0.269)
+ * ERR 0.269 LOSS 2.005
+Epoch: [36][0/2]	Time 2.375 (2.375)	Data 0.007 (0.007)	Loss 0.7181 (0.7181)	ERR 0.152 (0.152)
+Training Error: 0.160  Loss: 0.795
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.0203 (2.0203)	ERR 0.269 (0.269)
+ * ERR 0.269 LOSS 2.020
+Epoch: [37][0/2]	Time 1.875 (1.875)	Data 0.006 (0.006)	Loss 0.9293 (0.9293)	ERR 0.173 (0.173)
+Training Error: 0.159  Loss: 0.787
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.0672 (2.0672)	ERR 0.267 (0.267)
+ * ERR 0.267 LOSS 2.067
+Epoch: [38][0/2]	Time 2.115 (2.115)	Data 0.005 (0.005)	Loss 0.7942 (0.7942)	ERR 0.157 (0.157)
+Training Error: 0.155  Loss: 0.778
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.1330 (2.1330)	ERR 0.263 (0.263)
+ * ERR 0.263 LOSS 2.133
+Epoch: [39][0/2]	Time 2.132 (2.132)	Data 0.005 (0.005)	Loss 0.6978 (0.6978)	ERR 0.145 (0.145)
+Training Error: 0.149  Loss: 0.764
+Test: [0/1]	Time 0.032 (0.032)	Loss 2.1802 (2.1802)	ERR 0.261 (0.261)
+ * ERR 0.261 LOSS 2.180
+Epoch: [40][0/2]	Time 2.019 (2.019)	Data 0.005 (0.005)	Loss 0.8488 (0.8488)	ERR 0.154 (0.154)
+Training Error: 0.144  Loss: 0.752
+Test: [0/1]	Time 0.027 (0.027)	Loss 2.2100 (2.2100)	ERR 0.260 (0.260)
+ * ERR 0.260 LOSS 2.210
+Epoch: [41][0/2]	Time 2.166 (2.166)	Data 0.005 (0.005)	Loss 0.6755 (0.6755)	ERR 0.137 (0.137)
+Training Error: 0.143  Loss: 0.747
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.2295 (2.2295)	ERR 0.260 (0.260)
+ * ERR 0.260 LOSS 2.230
+Epoch: [42][0/2]	Time 2.022 (2.022)	Data 0.004 (0.004)	Loss 0.6664 (0.6664)	ERR 0.136 (0.136)
+Training Error: 0.138  Loss: 0.740
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.1951 (2.1951)	ERR 0.259 (0.259)
+ * ERR 0.259 LOSS 2.195
+Epoch: [43][0/2]	Time 2.054 (2.054)	Data 0.004 (0.004)	Loss 0.7205 (0.7205)	ERR 0.137 (0.137)
+Training Error: 0.138  Loss: 0.723
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.0900 (2.0900)	ERR 0.258 (0.258)
+ * ERR 0.258 LOSS 2.090
+Epoch: [44][0/2]	Time 2.122 (2.122)	Data 0.005 (0.005)	Loss 0.6499 (0.6499)	ERR 0.130 (0.130)
+Training Error: 0.137  Loss: 0.716
+Test: [0/1]	Time 0.027 (0.027)	Loss 1.9626 (1.9626)	ERR 0.260 (0.260)
+ * ERR 0.260 LOSS 1.963
+Epoch: [45][0/2]	Time 2.147 (2.147)	Data 0.006 (0.006)	Loss 0.8112 (0.8112)	ERR 0.151 (0.151)
+Training Error: 0.140  Loss: 0.701
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.8675 (1.8675)	ERR 0.261 (0.261)
+ * ERR 0.261 LOSS 1.868
+Epoch: [46][0/2]	Time 2.194 (2.194)	Data 0.004 (0.004)	Loss 0.6922 (0.6922)	ERR 0.142 (0.142)
+Training Error: 0.141  Loss: 0.699
+Test: [0/1]	Time 0.036 (0.036)	Loss 1.8633 (1.8633)	ERR 0.261 (0.261)
+ * ERR 0.261 LOSS 1.863
+Epoch: [47][0/2]	Time 2.396 (2.396)	Data 0.006 (0.006)	Loss 0.8314 (0.8314)	ERR 0.154 (0.154)
+Training Error: 0.142  Loss: 0.699
+Test: [0/1]	Time 0.037 (0.037)	Loss 1.9280 (1.9280)	ERR 0.262 (0.262)
+ * ERR 0.262 LOSS 1.928
+Epoch: [48][0/2]	Time 2.438 (2.438)	Data 0.006 (0.006)	Loss 0.6821 (0.6821)	ERR 0.136 (0.136)
+Training Error: 0.135  Loss: 0.672
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.0358 (2.0358)	ERR 0.264 (0.264)
+ * ERR 0.264 LOSS 2.036
+Epoch: [49][0/2]	Time 1.994 (1.994)	Data 0.005 (0.005)	Loss 0.6315 (0.6315)	ERR 0.122 (0.122)
+Training Error: 0.130  Loss: 0.657
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.0975 (2.0975)	ERR 0.265 (0.265)
+ * ERR 0.265 LOSS 2.097
+Epoch: [50][0/2]	Time 2.138 (2.138)	Data 0.005 (0.005)	Loss 0.6199 (0.6199)	ERR 0.120 (0.120)
+Training Error: 0.127  Loss: 0.657
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.0984 (2.0984)	ERR 0.269 (0.269)
+ * ERR 0.269 LOSS 2.098
+Epoch: [51][0/2]	Time 2.021 (2.021)	Data 0.005 (0.005)	Loss 0.5690 (0.5690)	ERR 0.121 (0.121)
+Training Error: 0.130  Loss: 0.652
+Test: [0/1]	Time 0.032 (0.032)	Loss 2.0068 (2.0068)	ERR 0.272 (0.272)
+ * ERR 0.272 LOSS 2.007
+Epoch: [52][0/2]	Time 1.931 (1.931)	Data 0.006 (0.006)	Loss 0.6948 (0.6948)	ERR 0.141 (0.141)
+Training Error: 0.135  Loss: 0.628
+Test: [0/1]	Time 0.032 (0.032)	Loss 1.9593 (1.9593)	ERR 0.273 (0.273)
+ * ERR 0.273 LOSS 1.959
+Epoch: [53][0/2]	Time 2.110 (2.110)	Data 0.005 (0.005)	Loss 0.5329 (0.5329)	ERR 0.133 (0.133)
+Training Error: 0.138  Loss: 0.621
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.0077 (2.0077)	ERR 0.270 (0.270)
+ * ERR 0.270 LOSS 2.008
+Epoch: [54][0/2]	Time 2.105 (2.105)	Data 0.005 (0.005)	Loss 0.6019 (0.6019)	ERR 0.132 (0.132)
+Training Error: 0.130  Loss: 0.599
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.1414 (2.1414)	ERR 0.264 (0.264)
+ * ERR 0.264 LOSS 2.141
+Epoch: [55][0/2]	Time 2.107 (2.107)	Data 0.005 (0.005)	Loss 0.5714 (0.5714)	ERR 0.121 (0.121)
+Training Error: 0.119  Loss: 0.568
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.2584 (2.2584)	ERR 0.262 (0.262)
+ * ERR 0.262 LOSS 2.258
+Epoch: [56][0/2]	Time 2.055 (2.055)	Data 0.005 (0.005)	Loss 0.3976 (0.3976)	ERR 0.100 (0.100)
+Training Error: 0.121  Loss: 0.604
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.2032 (2.2032)	ERR 0.256 (0.256)
+ * ERR 0.256 LOSS 2.203
+Saving best parameters...
+Epoch: [57][0/2]	Time 2.070 (2.070)	Data 0.005 (0.005)	Loss 0.4440 (0.4440)	ERR 0.106 (0.106)
+Training Error: 0.118  Loss: 0.568
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9917 (1.9917)	ERR 0.258 (0.258)
+ * ERR 0.258 LOSS 1.992
+Epoch: [58][0/2]	Time 2.105 (2.105)	Data 0.005 (0.005)	Loss 0.6339 (0.6339)	ERR 0.129 (0.129)
+Training Error: 0.126  Loss: 0.570
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9050 (1.9050)	ERR 0.266 (0.266)
+ * ERR 0.266 LOSS 1.905
+Epoch: [59][0/2]	Time 2.163 (2.163)	Data 0.005 (0.005)	Loss 0.6036 (0.6036)	ERR 0.143 (0.143)
+Training Error: 0.142  Loss: 0.600
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.1419 (2.1419)	ERR 0.285 (0.285)
+ * ERR 0.285 LOSS 2.142
+Epoch: [60][0/2]	Time 2.238 (2.238)	Data 0.004 (0.004)	Loss 0.5957 (0.5957)	ERR 0.132 (0.132)
+Training Error: 0.126  Loss: 0.550
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.4564 (2.4564)	ERR 0.298 (0.298)
+ * ERR 0.298 LOSS 2.456
+Epoch: [61][0/2]	Time 2.206 (2.206)	Data 0.005 (0.005)	Loss 0.5789 (0.5789)	ERR 0.120 (0.120)
+Training Error: 0.112  Loss: 0.515
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.6571 (2.6571)	ERR 0.305 (0.305)
+ * ERR 0.305 LOSS 2.657
+Epoch: [62][0/2]	Time 2.173 (2.173)	Data 0.005 (0.005)	Loss 0.4513 (0.4513)	ERR 0.107 (0.107)
+Training Error: 0.118  Loss: 0.544
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.4207 (2.4207)	ERR 0.291 (0.291)
+ * ERR 0.291 LOSS 2.421
+Epoch: [63][0/2]	Time 2.065 (2.065)	Data 0.005 (0.005)	Loss 0.5241 (0.5241)	ERR 0.109 (0.109)
+Training Error: 0.107  Loss: 0.488
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.1895 (2.1895)	ERR 0.292 (0.292)
+ * ERR 0.292 LOSS 2.190
+Epoch: [64][0/2]	Time 1.958 (1.958)	Data 0.006 (0.006)	Loss 0.4710 (0.4710)	ERR 0.104 (0.104)
+Training Error: 0.105  Loss: 0.467
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.0232 (2.0232)	ERR 0.280 (0.280)
+ * ERR 0.280 LOSS 2.023
+Epoch: [65][0/2]	Time 2.075 (2.075)	Data 0.005 (0.005)	Loss 0.4055 (0.4055)	ERR 0.097 (0.097)
+Training Error: 0.103  Loss: 0.458
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9255 (1.9255)	ERR 0.253 (0.253)
+ * ERR 0.253 LOSS 1.925
+Saving best parameters...
+Epoch: [66][0/2]	Time 2.183 (2.183)	Data 0.006 (0.006)	Loss 0.3796 (0.3796)	ERR 0.091 (0.091)
+Training Error: 0.101  Loss: 0.447
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9155 (1.9155)	ERR 0.242 (0.242)
+ * ERR 0.242 LOSS 1.915
+Saving best parameters...
+Epoch: [67][0/2]	Time 2.115 (2.115)	Data 0.006 (0.006)	Loss 0.4434 (0.4434)	ERR 0.095 (0.095)
+Training Error: 0.099  Loss: 0.434
+Test: [0/1]	Time 0.030 (0.030)	Loss 1.9042 (1.9042)	ERR 0.245 (0.245)
+ * ERR 0.245 LOSS 1.904
+Epoch: [68][0/2]	Time 2.001 (2.001)	Data 0.005 (0.005)	Loss 0.4123 (0.4123)	ERR 0.099 (0.099)
+Training Error: 0.098  Loss: 0.426
+Test: [0/1]	Time 0.030 (0.030)	Loss 1.9184 (1.9184)	ERR 0.250 (0.250)
+ * ERR 0.250 LOSS 1.918
+Epoch: [69][0/2]	Time 2.181 (2.181)	Data 0.005 (0.005)	Loss 0.4070 (0.4070)	ERR 0.100 (0.100)
+Training Error: 0.103  Loss: 0.428
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9169 (1.9169)	ERR 0.256 (0.256)
+ * ERR 0.256 LOSS 1.917
+Epoch: [70][0/2]	Time 2.112 (2.112)	Data 0.005 (0.005)	Loss 0.3624 (0.3624)	ERR 0.091 (0.091)
+Training Error: 0.096  Loss: 0.401
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9175 (1.9175)	ERR 0.260 (0.260)
+ * ERR 0.260 LOSS 1.917
+Epoch: [71][0/2]	Time 2.135 (2.135)	Data 0.005 (0.005)	Loss 0.4066 (0.4066)	ERR 0.089 (0.089)
+Training Error: 0.093  Loss: 0.401
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.8621 (1.8621)	ERR 0.254 (0.254)
+ * ERR 0.254 LOSS 1.862
+Epoch: [72][0/2]	Time 2.127 (2.127)	Data 0.006 (0.006)	Loss 0.4017 (0.4017)	ERR 0.090 (0.090)
+Training Error: 0.088  Loss: 0.378
+Test: [0/1]	Time 0.030 (0.030)	Loss 1.7671 (1.7671)	ERR 0.250 (0.250)
+ * ERR 0.250 LOSS 1.767
+Epoch: [73][0/2]	Time 2.119 (2.119)	Data 0.005 (0.005)	Loss 0.3201 (0.3201)	ERR 0.083 (0.083)
+Training Error: 0.092  Loss: 0.383
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.8568 (1.8568)	ERR 0.246 (0.246)
+ * ERR 0.246 LOSS 1.857
+Epoch: [74][0/2]	Time 2.159 (2.159)	Data 0.004 (0.004)	Loss 0.3106 (0.3106)	ERR 0.082 (0.082)
+Training Error: 0.092  Loss: 0.376
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.1214 (2.1214)	ERR 0.252 (0.252)
+ * ERR 0.252 LOSS 2.121
+Epoch: [75][0/2]	Time 2.160 (2.160)	Data 0.005 (0.005)	Loss 0.3836 (0.3836)	ERR 0.096 (0.096)
+Training Error: 0.097  Loss: 0.387
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.2039 (2.2039)	ERR 0.254 (0.254)
+ * ERR 0.254 LOSS 2.204
+Epoch: [76][0/2]	Time 2.098 (2.098)	Data 0.005 (0.005)	Loss 0.4354 (0.4354)	ERR 0.100 (0.100)
+Training Error: 0.094  Loss: 0.377
+Test: [0/1]	Time 0.027 (0.027)	Loss 2.0859 (2.0859)	ERR 0.247 (0.247)
+ * ERR 0.247 LOSS 2.086
+Epoch: [77][0/2]	Time 2.183 (2.183)	Data 0.005 (0.005)	Loss 0.3302 (0.3302)	ERR 0.088 (0.088)
+Training Error: 0.091  Loss: 0.351
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.0215 (2.0215)	ERR 0.246 (0.246)
+ * ERR 0.246 LOSS 2.021
+Epoch: [78][0/2]	Time 2.055 (2.055)	Data 0.005 (0.005)	Loss 0.3474 (0.3474)	ERR 0.088 (0.088)
+Training Error: 0.091  Loss: 0.341
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.0639 (2.0639)	ERR 0.253 (0.253)
+ * ERR 0.253 LOSS 2.064
+Epoch: [79][0/2]	Time 2.027 (2.027)	Data 0.005 (0.005)	Loss 0.2810 (0.2810)	ERR 0.078 (0.078)
+Training Error: 0.085  Loss: 0.325
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.1214 (2.1214)	ERR 0.259 (0.259)
+ * ERR 0.259 LOSS 2.121
+Epoch: [80][0/2]	Time 2.041 (2.041)	Data 0.005 (0.005)	Loss 0.3823 (0.3823)	ERR 0.087 (0.087)
+Training Error: 0.083  Loss: 0.341
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.1427 (2.1427)	ERR 0.260 (0.260)
+ * ERR 0.260 LOSS 2.143
+Epoch: [81][0/2]	Time 2.213 (2.213)	Data 0.005 (0.005)	Loss 0.3383 (0.3383)	ERR 0.082 (0.082)
+Training Error: 0.081  Loss: 0.308
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.1199 (2.1199)	ERR 0.260 (0.260)
+ * ERR 0.260 LOSS 2.120
+Epoch: [82][0/2]	Time 2.295 (2.295)	Data 0.005 (0.005)	Loss 0.3429 (0.3429)	ERR 0.084 (0.084)
+Training Error: 0.080  Loss: 0.301
+Test: [0/1]	Time 0.047 (0.047)	Loss 2.0695 (2.0695)	ERR 0.253 (0.253)
+ * ERR 0.253 LOSS 2.070
+Epoch: [83][0/2]	Time 2.266 (2.266)	Data 0.008 (0.008)	Loss 0.3636 (0.3636)	ERR 0.083 (0.083)
+Training Error: 0.079  Loss: 0.313
+Test: [0/1]	Time 0.028 (0.028)	Loss 1.9796 (1.9796)	ERR 0.248 (0.248)
+ * ERR 0.248 LOSS 1.980
+Epoch: [84][0/2]	Time 2.084 (2.084)	Data 0.005 (0.005)	Loss 0.2328 (0.2328)	ERR 0.071 (0.071)
+Training Error: 0.083  Loss: 0.312
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.8744 (1.8744)	ERR 0.248 (0.248)
+ * ERR 0.248 LOSS 1.874
+Epoch: [85][0/2]	Time 2.492 (2.492)	Data 0.008 (0.008)	Loss 0.2755 (0.2755)	ERR 0.084 (0.084)
+Training Error: 0.096  Loss: 0.370
+Test: [0/1]	Time 0.032 (0.032)	Loss 1.7640 (1.7640)	ERR 0.245 (0.245)
+ * ERR 0.245 LOSS 1.764
+Epoch: [86][0/2]	Time 2.188 (2.188)	Data 0.005 (0.005)	Loss 0.3079 (0.3079)	ERR 0.108 (0.108)
+Training Error: 0.116  Loss: 0.418
+Test: [0/1]	Time 0.031 (0.031)	Loss 1.7594 (1.7594)	ERR 0.244 (0.244)
+ * ERR 0.244 LOSS 1.759
+Epoch: [87][0/2]	Time 2.651 (2.651)	Data 0.006 (0.006)	Loss 0.3942 (0.3942)	ERR 0.119 (0.119)
+Training Error: 0.112  Loss: 0.366
+Test: [0/1]	Time 0.043 (0.043)	Loss 1.9391 (1.9391)	ERR 0.261 (0.261)
+ * ERR 0.261 LOSS 1.939
+Epoch: [88][0/2]	Time 2.740 (2.740)	Data 0.013 (0.013)	Loss 0.3493 (0.3493)	ERR 0.100 (0.100)
+Training Error: 0.101  Loss: 0.335
+Test: [0/1]	Time 0.047 (0.047)	Loss 2.3603 (2.3603)	ERR 0.291 (0.291)
+ * ERR 0.291 LOSS 2.360
+Epoch: [89][0/2]	Time 2.445 (2.445)	Data 0.005 (0.005)	Loss 0.3510 (0.3510)	ERR 0.109 (0.109)
+Training Error: 0.109  Loss: 0.365
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.2987 (2.2987)	ERR 0.280 (0.280)
+ * ERR 0.280 LOSS 2.299
+Epoch: [90][0/2]	Time 2.235 (2.235)	Data 0.007 (0.007)	Loss 0.2855 (0.2855)	ERR 0.083 (0.083)
+Training Error: 0.088  Loss: 0.298
+Test: [0/1]	Time 0.036 (0.036)	Loss 2.0761 (2.0761)	ERR 0.264 (0.264)
+ * ERR 0.264 LOSS 2.076
+Epoch: [91][0/2]	Time 2.638 (2.638)	Data 0.006 (0.006)	Loss 0.2862 (0.2862)	ERR 0.095 (0.095)
+Training Error: 0.099  Loss: 0.305
+Test: [0/1]	Time 0.042 (0.042)	Loss 2.0485 (2.0485)	ERR 0.257 (0.257)
+ * ERR 0.257 LOSS 2.048
+Epoch: [92][0/2]	Time 2.001 (2.001)	Data 0.007 (0.007)	Loss 0.2697 (0.2697)	ERR 0.085 (0.085)
+Training Error: 0.084  Loss: 0.273
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.2330 (2.2330)	ERR 0.252 (0.252)
+ * ERR 0.252 LOSS 2.233
+Epoch: [93][0/2]	Time 2.012 (2.012)	Data 0.006 (0.006)	Loss 0.3075 (0.3075)	ERR 0.086 (0.086)
+Training Error: 0.083  Loss: 0.291
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.1437 (2.1437)	ERR 0.248 (0.248)
+ * ERR 0.248 LOSS 2.144
+Epoch: [94][0/2]	Time 2.207 (2.207)	Data 0.005 (0.005)	Loss 0.3256 (0.3256)	ERR 0.088 (0.088)
+Training Error: 0.083  Loss: 0.282
+Test: [0/1]	Time 0.058 (0.058)	Loss 1.8382 (1.8382)	ERR 0.243 (0.243)
+ * ERR 0.243 LOSS 1.838
+Epoch: [95][0/2]	Time 2.582 (2.582)	Data 0.005 (0.005)	Loss 0.2760 (0.2760)	ERR 0.080 (0.080)
+Training Error: 0.075  Loss: 0.239
+Test: [0/1]	Time 0.046 (0.046)	Loss 1.8036 (1.8036)	ERR 0.250 (0.250)
+ * ERR 0.250 LOSS 1.804
+Epoch: [96][0/2]	Time 2.578 (2.578)	Data 0.007 (0.007)	Loss 0.2290 (0.2290)	ERR 0.074 (0.074)
+Training Error: 0.081  Loss: 0.252
+Test: [0/1]	Time 0.043 (0.043)	Loss 1.9940 (1.9940)	ERR 0.258 (0.258)
+ * ERR 0.258 LOSS 1.994
+Epoch: [97][0/2]	Time 2.377 (2.377)	Data 0.007 (0.007)	Loss 0.2222 (0.2222)	ERR 0.068 (0.068)
+Training Error: 0.075  Loss: 0.243
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.0943 (2.0943)	ERR 0.259 (0.259)
+ * ERR 0.259 LOSS 2.094
+Epoch: [98][0/2]	Time 1.951 (1.951)	Data 0.005 (0.005)	Loss 0.2381 (0.2381)	ERR 0.078 (0.078)
+Training Error: 0.073  Loss: 0.230
+Test: [0/1]	Time 0.033 (0.033)	Loss 2.0794 (2.0794)	ERR 0.263 (0.263)
+ * ERR 0.263 LOSS 2.079
+Epoch: [99][0/2]	Time 2.086 (2.086)	Data 0.005 (0.005)	Loss 0.2050 (0.2050)	ERR 0.068 (0.068)
+Training Error: 0.071  Loss: 0.219
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.1628 (2.1628)	ERR 0.270 (0.270)
+ * ERR 0.270 LOSS 2.163
+Epoch: [100][0/2]	Time 2.154 (2.154)	Data 0.005 (0.005)	Loss 0.2377 (0.2377)	ERR 0.081 (0.081)
+Training Error: 0.084  Loss: 0.256
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.2741 (2.2741)	ERR 0.270 (0.270)
+ * ERR 0.270 LOSS 2.274
+Epoch: [101][0/2]	Time 2.065 (2.065)	Data 0.006 (0.006)	Loss 0.2054 (0.2054)	ERR 0.069 (0.069)
+Training Error: 0.071  Loss: 0.214
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.2987 (2.2987)	ERR 0.268 (0.268)
+ * ERR 0.268 LOSS 2.299
+Epoch: [102][0/2]	Time 2.479 (2.479)	Data 0.006 (0.006)	Loss 0.2344 (0.2344)	ERR 0.072 (0.072)
+Training Error: 0.073  Loss: 0.232
+Test: [0/1]	Time 0.042 (0.042)	Loss 2.3301 (2.3301)	ERR 0.278 (0.278)
+ * ERR 0.278 LOSS 2.330
+Epoch: [103][0/2]	Time 2.517 (2.517)	Data 0.007 (0.007)	Loss 0.1730 (0.1730)	ERR 0.059 (0.059)
+Training Error: 0.063  Loss: 0.192
+Test: [0/1]	Time 0.044 (0.044)	Loss 2.3471 (2.3471)	ERR 0.282 (0.282)
+ * ERR 0.282 LOSS 2.347
+Epoch: [104][0/2]	Time 2.726 (2.726)	Data 0.008 (0.008)	Loss 0.1652 (0.1652)	ERR 0.059 (0.059)
+Training Error: 0.068  Loss: 0.220
+Test: [0/1]	Time 0.049 (0.049)	Loss 2.2229 (2.2229)	ERR 0.277 (0.277)
+ * ERR 0.277 LOSS 2.223
+Epoch: [105][0/2]	Time 2.589 (2.589)	Data 0.010 (0.010)	Loss 0.1430 (0.1430)	ERR 0.062 (0.062)
+Training Error: 0.076  Loss: 0.232
+Test: [0/1]	Time 0.049 (0.049)	Loss 2.1909 (2.1909)	ERR 0.269 (0.269)
+ * ERR 0.269 LOSS 2.191
+Epoch: [106][0/2]	Time 2.348 (2.348)	Data 0.007 (0.007)	Loss 0.2090 (0.2090)	ERR 0.072 (0.072)
+Training Error: 0.077  Loss: 0.230
+Test: [0/1]	Time 0.041 (0.041)	Loss 2.1142 (2.1142)	ERR 0.254 (0.254)
+ * ERR 0.254 LOSS 2.114
+Epoch: [107][0/2]	Time 2.175 (2.175)	Data 0.006 (0.006)	Loss 0.2071 (0.2071)	ERR 0.074 (0.074)
+Training Error: 0.082  Loss: 0.255
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.0061 (2.0061)	ERR 0.244 (0.244)
+ * ERR 0.244 LOSS 2.006
+Epoch: [108][0/2]	Time 2.028 (2.028)	Data 0.005 (0.005)	Loss 0.1980 (0.1980)	ERR 0.068 (0.068)
+Training Error: 0.069  Loss: 0.197
+Test: [0/1]	Time 0.030 (0.030)	Loss 1.7959 (1.7959)	ERR 0.237 (0.237)
+ * ERR 0.237 LOSS 1.796
+Saving best parameters...
+Epoch: [109][0/2]	Time 2.263 (2.263)	Data 0.005 (0.005)	Loss 0.2055 (0.2055)	ERR 0.074 (0.074)
+Training Error: 0.079  Loss: 0.231
+Test: [0/1]	Time 0.041 (0.041)	Loss 1.9099 (1.9099)	ERR 0.244 (0.244)
+ * ERR 0.244 LOSS 1.910
+Epoch: [110][0/2]	Time 2.438 (2.438)	Data 0.010 (0.010)	Loss 0.2077 (0.2077)	ERR 0.074 (0.074)
+Training Error: 0.077  Loss: 0.225
+Test: [0/1]	Time 0.038 (0.038)	Loss 2.0270 (2.0270)	ERR 0.245 (0.245)
+ * ERR 0.245 LOSS 2.027
+Epoch: [111][0/2]	Time 2.239 (2.239)	Data 0.006 (0.006)	Loss 0.1546 (0.1546)	ERR 0.061 (0.061)
+Training Error: 0.070  Loss: 0.196
+Test: [0/1]	Time 0.032 (0.032)	Loss 2.1758 (2.1758)	ERR 0.250 (0.250)
+ * ERR 0.250 LOSS 2.176
+Epoch: [112][0/2]	Time 2.465 (2.465)	Data 0.005 (0.005)	Loss 0.1898 (0.1898)	ERR 0.069 (0.069)
+Training Error: 0.070  Loss: 0.191
+Test: [0/1]	Time 0.039 (0.039)	Loss 2.3981 (2.3981)	ERR 0.264 (0.264)
+ * ERR 0.264 LOSS 2.398
+Epoch: [113][0/2]	Time 2.460 (2.460)	Data 0.008 (0.008)	Loss 0.1560 (0.1560)	ERR 0.060 (0.060)
+Training Error: 0.066  Loss: 0.181
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.4511 (2.4511)	ERR 0.271 (0.271)
+ * ERR 0.271 LOSS 2.451
+Epoch: [114][0/2]	Time 2.212 (2.212)	Data 0.005 (0.005)	Loss 0.1470 (0.1470)	ERR 0.063 (0.063)
+Training Error: 0.072  Loss: 0.192
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.3148 (2.3148)	ERR 0.265 (0.265)
+ * ERR 0.265 LOSS 2.315
+Epoch: [115][0/2]	Time 2.151 (2.151)	Data 0.004 (0.004)	Loss 0.1847 (0.1847)	ERR 0.066 (0.066)
+Training Error: 0.077  Loss: 0.236
+Test: [0/1]	Time 0.041 (0.041)	Loss 2.1072 (2.1072)	ERR 0.254 (0.254)
+ * ERR 0.254 LOSS 2.107
+Epoch: [116][0/2]	Time 2.327 (2.327)	Data 0.007 (0.007)	Loss 0.2043 (0.2043)	ERR 0.085 (0.085)
+Training Error: 0.087  Loss: 0.214
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.1240 (2.1240)	ERR 0.246 (0.246)
+ * ERR 0.246 LOSS 2.124
+Epoch: [117][0/2]	Time 2.165 (2.165)	Data 0.005 (0.005)	Loss 0.1866 (0.1866)	ERR 0.075 (0.075)
+Training Error: 0.071  Loss: 0.174
+Test: [0/1]	Time 0.037 (0.037)	Loss 2.4916 (2.4916)	ERR 0.279 (0.279)
+ * ERR 0.279 LOSS 2.492
+Epoch: [118][0/2]	Time 2.558 (2.558)	Data 0.006 (0.006)	Loss 0.1780 (0.1780)	ERR 0.071 (0.071)
+Training Error: 0.079  Loss: 0.200
+Test: [0/1]	Time 0.040 (0.040)	Loss 2.2545 (2.2545)	ERR 0.253 (0.253)
+ * ERR 0.253 LOSS 2.254
+Epoch: [119][0/2]	Time 2.254 (2.254)	Data 0.007 (0.007)	Loss 0.1517 (0.1517)	ERR 0.060 (0.060)
+Training Error: 0.064  Loss: 0.164
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.8676 (1.8676)	ERR 0.239 (0.239)
+ * ERR 0.239 LOSS 1.868
+Epoch: [120][0/2]	Time 2.008 (2.008)	Data 0.004 (0.004)	Loss 0.2113 (0.2113)	ERR 0.088 (0.088)
+Training Error: 0.089  Loss: 0.205
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9181 (1.9181)	ERR 0.238 (0.238)
+ * ERR 0.238 LOSS 1.918
+Epoch: [121][0/2]	Time 2.090 (2.090)	Data 0.005 (0.005)	Loss 0.1860 (0.1860)	ERR 0.073 (0.073)
+Training Error: 0.067  Loss: 0.158
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.2462 (2.2462)	ERR 0.258 (0.258)
+ * ERR 0.258 LOSS 2.246
+Epoch: [122][0/2]	Time 1.684 (1.684)	Data 0.004 (0.004)	Loss 0.1743 (0.1743)	ERR 0.080 (0.080)
+Training Error: 0.084  Loss: 0.199
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.1550 (2.1550)	ERR 0.258 (0.258)
+ * ERR 0.258 LOSS 2.155
+Epoch: [123][0/2]	Time 1.755 (1.755)	Data 0.005 (0.005)	Loss 0.1814 (0.1814)	ERR 0.067 (0.067)
+Training Error: 0.063  Loss: 0.154
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.0070 (2.0070)	ERR 0.260 (0.260)
+ * ERR 0.260 LOSS 2.007
+Epoch: [124][0/2]	Time 2.171 (2.171)	Data 0.005 (0.005)	Loss 0.1993 (0.1993)	ERR 0.084 (0.084)
+Training Error: 0.078  Loss: 0.168
+Test: [0/1]	Time 0.038 (0.038)	Loss 2.1377 (2.1377)	ERR 0.256 (0.256)
+ * ERR 0.256 LOSS 2.138
+Epoch: [125][0/2]	Time 2.554 (2.554)	Data 0.007 (0.007)	Loss 0.0956 (0.0956)	ERR 0.055 (0.055)
+Training Error: 0.067  Loss: 0.168
+Test: [0/1]	Time 0.037 (0.037)	Loss 2.2307 (2.2307)	ERR 0.257 (0.257)
+ * ERR 0.257 LOSS 2.231
+Epoch: [126][0/2]	Time 2.458 (2.458)	Data 0.006 (0.006)	Loss 0.1412 (0.1412)	ERR 0.060 (0.060)
+Training Error: 0.059  Loss: 0.143
+Test: [0/1]	Time 0.041 (0.041)	Loss 2.0200 (2.0200)	ERR 0.234 (0.234)
+ * ERR 0.234 LOSS 2.020
+Saving best parameters...
+Epoch: [127][0/2]	Time 2.480 (2.480)	Data 0.006 (0.006)	Loss 0.1195 (0.1195)	ERR 0.055 (0.055)
+Training Error: 0.058  Loss: 0.133
+Test: [0/1]	Time 0.040 (0.040)	Loss 2.0025 (2.0025)	ERR 0.230 (0.230)
+ * ERR 0.230 LOSS 2.002
+Saving best parameters...
+Epoch: [128][0/2]	Time 2.409 (2.409)	Data 0.006 (0.006)	Loss 0.1374 (0.1374)	ERR 0.057 (0.057)
+Training Error: 0.058  Loss: 0.134
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.0717 (2.0717)	ERR 0.234 (0.234)
+ * ERR 0.234 LOSS 2.072
+Epoch: [129][0/2]	Time 2.138 (2.138)	Data 0.004 (0.004)	Loss 0.1579 (0.1579)	ERR 0.062 (0.062)
+Training Error: 0.058  Loss: 0.135
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.0544 (2.0544)	ERR 0.233 (0.233)
+ * ERR 0.233 LOSS 2.054
+Epoch: [130][0/2]	Time 2.012 (2.012)	Data 0.005 (0.005)	Loss 0.1626 (0.1626)	ERR 0.067 (0.067)
+Training Error: 0.069  Loss: 0.170
+Test: [0/1]	Time 0.030 (0.030)	Loss 1.9999 (1.9999)	ERR 0.231 (0.231)
+ * ERR 0.231 LOSS 2.000
+Epoch: [131][0/2]	Time 2.143 (2.143)	Data 0.005 (0.005)	Loss 0.1416 (0.1416)	ERR 0.060 (0.060)
+Training Error: 0.064  Loss: 0.161
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.8956 (1.8956)	ERR 0.225 (0.225)
+ * ERR 0.225 LOSS 1.896
+Saving best parameters...
+Epoch: [132][0/2]	Time 2.006 (2.006)	Data 0.005 (0.005)	Loss 0.1517 (0.1517)	ERR 0.060 (0.060)
+Training Error: 0.058  Loss: 0.135
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9025 (1.9025)	ERR 0.241 (0.241)
+ * ERR 0.241 LOSS 1.903
+Epoch: [133][0/2]	Time 2.133 (2.133)	Data 0.005 (0.005)	Loss 0.1312 (0.1312)	ERR 0.057 (0.057)
+Training Error: 0.061  Loss: 0.137
+Test: [0/1]	Time 0.029 (0.029)	Loss 1.9846 (1.9846)	ERR 0.247 (0.247)
+ * ERR 0.247 LOSS 1.985
+Epoch: [134][0/2]	Time 2.236 (2.236)	Data 0.005 (0.005)	Loss 0.1398 (0.1398)	ERR 0.060 (0.060)
+Training Error: 0.066  Loss: 0.169
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.1072 (2.1072)	ERR 0.251 (0.251)
+ * ERR 0.251 LOSS 2.107
+Epoch: [135][0/2]	Time 2.033 (2.033)	Data 0.005 (0.005)	Loss 0.1398 (0.1398)	ERR 0.058 (0.058)
+Training Error: 0.054  Loss: 0.121
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.1985 (2.1985)	ERR 0.249 (0.249)
+ * ERR 0.249 LOSS 2.198
+Epoch: [136][0/2]	Time 2.002 (2.002)	Data 0.005 (0.005)	Loss 0.1285 (0.1285)	ERR 0.055 (0.055)
+Training Error: 0.054  Loss: 0.124
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.2734 (2.2734)	ERR 0.253 (0.253)
+ * ERR 0.253 LOSS 2.273
+Epoch: [137][0/2]	Time 2.094 (2.094)	Data 0.005 (0.005)	Loss 0.1797 (0.1797)	ERR 0.060 (0.060)
+Training Error: 0.062  Loss: 0.171
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.2579 (2.2579)	ERR 0.253 (0.253)
+ * ERR 0.253 LOSS 2.258
+Epoch: [138][0/2]	Time 1.958 (1.958)	Data 0.004 (0.004)	Loss 0.1711 (0.1711)	ERR 0.057 (0.057)
+Training Error: 0.057  Loss: 0.164
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.3996 (2.3996)	ERR 0.266 (0.266)
+ * ERR 0.266 LOSS 2.400
+Epoch: [139][0/2]	Time 2.139 (2.139)	Data 0.004 (0.004)	Loss 0.0990 (0.0990)	ERR 0.049 (0.049)
+Training Error: 0.060  Loss: 0.130
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.2953 (2.2953)	ERR 0.264 (0.264)
+ * ERR 0.264 LOSS 2.295
+Epoch: [140][0/2]	Time 2.104 (2.104)	Data 0.005 (0.005)	Loss 0.1105 (0.1105)	ERR 0.057 (0.057)
+Training Error: 0.061  Loss: 0.139
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.1551 (2.1551)	ERR 0.261 (0.261)
+ * ERR 0.261 LOSS 2.155
+Epoch: [141][0/2]	Time 2.152 (2.152)	Data 0.005 (0.005)	Loss 0.1545 (0.1545)	ERR 0.073 (0.073)
+Training Error: 0.071  Loss: 0.153
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.2528 (2.2528)	ERR 0.257 (0.257)
+ * ERR 0.257 LOSS 2.253
+Epoch: [142][0/2]	Time 1.962 (1.962)	Data 0.005 (0.005)	Loss 0.1341 (0.1341)	ERR 0.058 (0.058)
+Training Error: 0.062  Loss: 0.172
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.4416 (2.4416)	ERR 0.265 (0.265)
+ * ERR 0.265 LOSS 2.442
+Epoch: [143][0/2]	Time 2.073 (2.073)	Data 0.005 (0.005)	Loss 0.1534 (0.1534)	ERR 0.073 (0.073)
+Training Error: 0.071  Loss: 0.142
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.3163 (2.3163)	ERR 0.268 (0.268)
+ * ERR 0.268 LOSS 2.316
+Epoch: [144][0/2]	Time 1.989 (1.989)	Data 0.005 (0.005)	Loss 0.1361 (0.1361)	ERR 0.061 (0.061)
+Training Error: 0.068  Loss: 0.154
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.2702 (2.2702)	ERR 0.279 (0.279)
+ * ERR 0.279 LOSS 2.270
+Epoch: [145][0/2]	Time 2.036 (2.036)	Data 0.005 (0.005)	Loss 0.1124 (0.1124)	ERR 0.065 (0.065)
+Training Error: 0.074  Loss: 0.171
+Test: [0/1]	Time 0.045 (0.045)	Loss 2.2856 (2.2856)	ERR 0.264 (0.264)
+ * ERR 0.264 LOSS 2.286
+Epoch: [146][0/2]	Time 2.507 (2.507)	Data 0.008 (0.008)	Loss 0.1222 (0.1222)	ERR 0.053 (0.053)
+Training Error: 0.057  Loss: 0.132
+Test: [0/1]	Time 0.033 (0.033)	Loss 2.2702 (2.2702)	ERR 0.253 (0.253)
+ * ERR 0.253 LOSS 2.270
+Epoch: [147][0/2]	Time 2.501 (2.501)	Data 0.006 (0.006)	Loss 0.0972 (0.0972)	ERR 0.051 (0.051)
+Training Error: 0.063  Loss: 0.154
+Test: [0/1]	Time 0.038 (0.038)	Loss 2.2041 (2.2041)	ERR 0.244 (0.244)
+ * ERR 0.244 LOSS 2.204
+Epoch: [148][0/2]	Time 2.246 (2.246)	Data 0.005 (0.005)	Loss 0.1385 (0.1385)	ERR 0.065 (0.065)
+Training Error: 0.070  Loss: 0.156
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.2707 (2.2707)	ERR 0.246 (0.246)
+ * ERR 0.246 LOSS 2.271
+Epoch: [149][0/2]	Time 2.114 (2.114)	Data 0.005 (0.005)	Loss 0.1125 (0.1125)	ERR 0.060 (0.060)
+Training Error: 0.066  Loss: 0.146
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.5836 (2.5836)	ERR 0.266 (0.266)
+ * ERR 0.266 LOSS 2.584
+Epoch: [150][0/2]	Time 2.078 (2.078)	Data 0.005 (0.005)	Loss 0.1553 (0.1553)	ERR 0.071 (0.071)
+Training Error: 0.070  Loss: 0.162
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.6752 (2.6752)	ERR 0.269 (0.269)
+ * ERR 0.269 LOSS 2.675
+Epoch: [151][0/2]	Time 2.071 (2.071)	Data 0.005 (0.005)	Loss 0.1173 (0.1173)	ERR 0.060 (0.060)
+Training Error: 0.061  Loss: 0.129
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.6527 (2.6527)	ERR 0.272 (0.272)
+ * ERR 0.272 LOSS 2.653
+Epoch: [152][0/2]	Time 2.084 (2.084)	Data 0.005 (0.005)	Loss 0.1346 (0.1346)	ERR 0.059 (0.059)
+Training Error: 0.058  Loss: 0.122
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.5011 (2.5011)	ERR 0.271 (0.271)
+ * ERR 0.271 LOSS 2.501
+Epoch: [153][0/2]	Time 2.086 (2.086)	Data 0.005 (0.005)	Loss 0.1097 (0.1097)	ERR 0.059 (0.059)
+Training Error: 0.062  Loss: 0.124
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.3740 (2.3740)	ERR 0.271 (0.271)
+ * ERR 0.271 LOSS 2.374
+Epoch: [154][0/2]	Time 2.012 (2.012)	Data 0.004 (0.004)	Loss 0.1601 (0.1601)	ERR 0.071 (0.071)
+Training Error: 0.071  Loss: 0.156
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.2934 (2.2934)	ERR 0.261 (0.261)
+ * ERR 0.261 LOSS 2.293
+Epoch: [155][0/2]	Time 2.090 (2.090)	Data 0.005 (0.005)	Loss 0.1434 (0.1434)	ERR 0.064 (0.064)
+Training Error: 0.061  Loss: 0.129
+Test: [0/1]	Time 0.027 (0.027)	Loss 2.3582 (2.3582)	ERR 0.253 (0.253)
+ * ERR 0.253 LOSS 2.358
+Epoch: [156][0/2]	Time 2.111 (2.111)	Data 0.005 (0.005)	Loss 0.1514 (0.1514)	ERR 0.062 (0.062)
+Training Error: 0.072  Loss: 0.210
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.5250 (2.5250)	ERR 0.263 (0.263)
+ * ERR 0.263 LOSS 2.525
+Epoch: [157][0/2]	Time 1.970 (1.970)	Data 0.005 (0.005)	Loss 0.1277 (0.1277)	ERR 0.064 (0.064)
+Training Error: 0.070  Loss: 0.172
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.4743 (2.4743)	ERR 0.282 (0.282)
+ * ERR 0.282 LOSS 2.474
+Epoch: [158][0/2]	Time 2.033 (2.033)	Data 0.006 (0.006)	Loss 0.2298 (0.2298)	ERR 0.076 (0.076)
+Training Error: 0.072  Loss: 0.205
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.2109 (2.2109)	ERR 0.269 (0.269)
+ * ERR 0.269 LOSS 2.211
+Epoch: [159][0/2]	Time 2.071 (2.071)	Data 0.005 (0.005)	Loss 0.1913 (0.1913)	ERR 0.081 (0.081)
+Training Error: 0.083  Loss: 0.204
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.1978 (2.1978)	ERR 0.255 (0.255)
+ * ERR 0.255 LOSS 2.198
+Epoch: [160][0/2]	Time 1.985 (1.985)	Data 0.005 (0.005)	Loss 0.1542 (0.1542)	ERR 0.062 (0.062)
+Training Error: 0.067  Loss: 0.166
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.6274 (2.6274)	ERR 0.278 (0.278)
+ * ERR 0.278 LOSS 2.627
+Epoch: [161][0/2]	Time 1.781 (1.781)	Data 0.005 (0.005)	Loss 0.1711 (0.1711)	ERR 0.074 (0.074)
+Training Error: 0.073  Loss: 0.163
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.7065 (2.7065)	ERR 0.280 (0.280)
+ * ERR 0.280 LOSS 2.707
+Epoch: [162][0/2]	Time 2.006 (2.006)	Data 0.005 (0.005)	Loss 0.1286 (0.1286)	ERR 0.065 (0.065)
+Training Error: 0.070  Loss: 0.150
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.7770 (2.7770)	ERR 0.294 (0.294)
+ * ERR 0.294 LOSS 2.777
+Epoch: [163][0/2]	Time 2.051 (2.051)	Data 0.005 (0.005)	Loss 0.1549 (0.1549)	ERR 0.068 (0.068)
+Training Error: 0.068  Loss: 0.159
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.9841 (2.9841)	ERR 0.310 (0.310)
+ * ERR 0.310 LOSS 2.984
+Epoch: [164][0/2]	Time 2.157 (2.157)	Data 0.005 (0.005)	Loss 0.2027 (0.2027)	ERR 0.077 (0.077)
+Training Error: 0.074  Loss: 0.183
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.9897 (2.9897)	ERR 0.312 (0.312)
+ * ERR 0.312 LOSS 2.990
+Epoch: [165][0/2]	Time 2.023 (2.023)	Data 0.004 (0.004)	Loss 0.1581 (0.1581)	ERR 0.068 (0.068)
+Training Error: 0.064  Loss: 0.143
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.6867 (2.6867)	ERR 0.291 (0.291)
+ * ERR 0.291 LOSS 2.687
+Epoch: [166][0/2]	Time 2.119 (2.119)	Data 0.005 (0.005)	Loss 0.1390 (0.1390)	ERR 0.062 (0.062)
+Training Error: 0.065  Loss: 0.148
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.5857 (2.5857)	ERR 0.281 (0.281)
+ * ERR 0.281 LOSS 2.586
+Epoch: [167][0/2]	Time 2.313 (2.313)	Data 0.005 (0.005)	Loss 0.1178 (0.1178)	ERR 0.058 (0.058)
+Training Error: 0.059  Loss: 0.118
+Test: [0/1]	Time 0.040 (0.040)	Loss 2.6831 (2.6831)	ERR 0.288 (0.288)
+ * ERR 0.288 LOSS 2.683
+Epoch: [168][0/2]	Time 2.509 (2.509)	Data 0.006 (0.006)	Loss 0.1281 (0.1281)	ERR 0.060 (0.060)
+Training Error: 0.062  Loss: 0.147
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.5469 (2.5469)	ERR 0.288 (0.288)
+ * ERR 0.288 LOSS 2.547
+Epoch: [169][0/2]	Time 2.096 (2.096)	Data 0.005 (0.005)	Loss 0.1345 (0.1345)	ERR 0.058 (0.058)
+Training Error: 0.060  Loss: 0.129
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.6845 (2.6845)	ERR 0.299 (0.299)
+ * ERR 0.299 LOSS 2.684
+Epoch: [170][0/2]	Time 2.039 (2.039)	Data 0.006 (0.006)	Loss 0.3020 (0.3020)	ERR 0.072 (0.072)
+Training Error: 0.071  Loss: 0.277
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.9878 (2.9878)	ERR 0.324 (0.324)
+ * ERR 0.324 LOSS 2.988
+Epoch: [171][0/2]	Time 2.084 (2.084)	Data 0.004 (0.004)	Loss 0.2099 (0.2099)	ERR 0.064 (0.064)
+Training Error: 0.067  Loss: 0.232
+Test: [0/1]	Time 0.027 (0.027)	Loss 2.9307 (2.9307)	ERR 0.319 (0.319)
+ * ERR 0.319 LOSS 2.931
+Epoch: [172][0/2]	Time 2.058 (2.058)	Data 0.005 (0.005)	Loss 0.2730 (0.2730)	ERR 0.074 (0.074)
+Training Error: 0.078  Loss: 0.288
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.8904 (2.8904)	ERR 0.312 (0.312)
+ * ERR 0.312 LOSS 2.890
+Epoch: [173][0/2]	Time 2.477 (2.477)	Data 0.004 (0.004)	Loss 0.1442 (0.1442)	ERR 0.058 (0.058)
+Training Error: 0.066  Loss: 0.180
+Test: [0/1]	Time 0.036 (0.036)	Loss 2.9184 (2.9184)	ERR 0.306 (0.306)
+ * ERR 0.306 LOSS 2.918
+Epoch: [174][0/2]	Time 2.529 (2.529)	Data 0.008 (0.008)	Loss 0.1802 (0.1802)	ERR 0.075 (0.075)
+Training Error: 0.071  Loss: 0.160
+Test: [0/1]	Time 0.037 (0.037)	Loss 2.5801 (2.5801)	ERR 0.296 (0.296)
+ * ERR 0.296 LOSS 2.580
+Epoch: [175][0/2]	Time 2.211 (2.211)	Data 0.006 (0.006)	Loss 0.1404 (0.1404)	ERR 0.068 (0.068)
+Training Error: 0.071  Loss: 0.139
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.5413 (2.5413)	ERR 0.309 (0.309)
+ * ERR 0.309 LOSS 2.541
+Epoch: [176][0/2]	Time 1.971 (1.971)	Data 0.004 (0.004)	Loss 0.1466 (0.1466)	ERR 0.076 (0.076)
+Training Error: 0.080  Loss: 0.160
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.6260 (2.6260)	ERR 0.301 (0.301)
+ * ERR 0.301 LOSS 2.626
+Epoch: [177][0/2]	Time 2.067 (2.067)	Data 0.005 (0.005)	Loss 0.1118 (0.1118)	ERR 0.058 (0.058)
+Training Error: 0.062  Loss: 0.123
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.6658 (2.6658)	ERR 0.311 (0.311)
+ * ERR 0.311 LOSS 2.666
+Epoch: [178][0/2]	Time 2.169 (2.169)	Data 0.005 (0.005)	Loss 0.1155 (0.1155)	ERR 0.059 (0.059)
+Training Error: 0.071  Loss: 0.161
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.3880 (2.3880)	ERR 0.307 (0.307)
+ * ERR 0.307 LOSS 2.388
+Epoch: [179][0/2]	Time 2.058 (2.058)	Data 0.005 (0.005)	Loss 0.1579 (0.1579)	ERR 0.082 (0.082)
+Training Error: 0.089  Loss: 0.180
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.3635 (2.3635)	ERR 0.293 (0.293)
+ * ERR 0.293 LOSS 2.363
+Epoch: [180][0/2]	Time 2.080 (2.080)	Data 0.005 (0.005)	Loss 0.1091 (0.1091)	ERR 0.065 (0.065)
+Training Error: 0.073  Loss: 0.207
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.5694 (2.5694)	ERR 0.289 (0.289)
+ * ERR 0.289 LOSS 2.569
+Epoch: [181][0/2]	Time 2.057 (2.057)	Data 0.005 (0.005)	Loss 0.1509 (0.1509)	ERR 0.072 (0.072)
+Training Error: 0.071  Loss: 0.152
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.5268 (2.5268)	ERR 0.285 (0.285)
+ * ERR 0.285 LOSS 2.527
+Epoch: [182][0/2]	Time 2.103 (2.103)	Data 0.005 (0.005)	Loss 0.1758 (0.1758)	ERR 0.068 (0.068)
+Training Error: 0.070  Loss: 0.174
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.4844 (2.4844)	ERR 0.280 (0.280)
+ * ERR 0.280 LOSS 2.484
+Epoch: [183][0/2]	Time 2.246 (2.246)	Data 0.005 (0.005)	Loss 0.1814 (0.1814)	ERR 0.071 (0.071)
+Training Error: 0.075  Loss: 0.190
+Test: [0/1]	Time 0.043 (0.043)	Loss 2.6587 (2.6587)	ERR 0.277 (0.277)
+ * ERR 0.277 LOSS 2.659
+Epoch: [184][0/2]	Time 2.290 (2.290)	Data 0.007 (0.007)	Loss 0.1504 (0.1504)	ERR 0.070 (0.070)
+Training Error: 0.073  Loss: 0.168
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.6218 (2.6218)	ERR 0.272 (0.272)
+ * ERR 0.272 LOSS 2.622
+Epoch: [185][0/2]	Time 2.003 (2.003)	Data 0.006 (0.006)	Loss 0.1390 (0.1390)	ERR 0.067 (0.067)
+Training Error: 0.069  Loss: 0.145
+Test: [0/1]	Time 0.027 (0.027)	Loss 2.5339 (2.5339)	ERR 0.263 (0.263)
+ * ERR 0.263 LOSS 2.534
+Epoch: [186][0/2]	Time 1.837 (1.837)	Data 0.006 (0.006)	Loss 0.1274 (0.1274)	ERR 0.063 (0.063)
+Training Error: 0.080  Loss: 0.202
+Test: [0/1]	Time 0.027 (0.027)	Loss 2.8923 (2.8923)	ERR 0.298 (0.298)
+ * ERR 0.298 LOSS 2.892
+Epoch: [187][0/2]	Time 1.990 (1.990)	Data 0.004 (0.004)	Loss 0.2053 (0.2053)	ERR 0.081 (0.081)
+Training Error: 0.073  Loss: 0.172
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.9627 (2.9627)	ERR 0.303 (0.303)
+ * ERR 0.303 LOSS 2.963
+Epoch: [188][0/2]	Time 2.030 (2.030)	Data 0.004 (0.004)	Loss 0.1572 (0.1572)	ERR 0.072 (0.072)
+Training Error: 0.074  Loss: 0.164
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.4423 (2.4423)	ERR 0.279 (0.279)
+ * ERR 0.279 LOSS 2.442
+Epoch: [189][0/2]	Time 1.988 (1.988)	Data 0.005 (0.005)	Loss 0.1428 (0.1428)	ERR 0.076 (0.076)
+Training Error: 0.081  Loss: 0.154
+Test: [0/1]	Time 0.035 (0.035)	Loss 2.4794 (2.4794)	ERR 0.263 (0.263)
+ * ERR 0.263 LOSS 2.479
+Epoch: [190][0/2]	Time 2.111 (2.111)	Data 0.005 (0.005)	Loss 0.0934 (0.0934)	ERR 0.053 (0.053)
+Training Error: 0.063  Loss: 0.135
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.7354 (2.7354)	ERR 0.276 (0.276)
+ * ERR 0.276 LOSS 2.735
+Epoch: [191][0/2]	Time 2.116 (2.116)	Data 0.006 (0.006)	Loss 0.1403 (0.1403)	ERR 0.070 (0.070)
+Training Error: 0.067  Loss: 0.132
+Test: [0/1]	Time 0.031 (0.031)	Loss 2.4515 (2.4515)	ERR 0.258 (0.258)
+ * ERR 0.258 LOSS 2.451
+Epoch: [192][0/2]	Time 1.853 (1.853)	Data 0.006 (0.006)	Loss 0.1141 (0.1141)	ERR 0.063 (0.063)
+Training Error: 0.069  Loss: 0.127
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.5960 (2.5960)	ERR 0.268 (0.268)
+ * ERR 0.268 LOSS 2.596
+Epoch: [193][0/2]	Time 1.996 (1.996)	Data 0.004 (0.004)	Loss 0.1012 (0.1012)	ERR 0.055 (0.055)
+Training Error: 0.058  Loss: 0.108
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.8634 (2.8634)	ERR 0.293 (0.293)
+ * ERR 0.293 LOSS 2.863
+Epoch: [194][0/2]	Time 2.161 (2.161)	Data 0.005 (0.005)	Loss 0.1196 (0.1196)	ERR 0.066 (0.066)
+Training Error: 0.070  Loss: 0.131
+Test: [0/1]	Time 0.036 (0.036)	Loss 2.5279 (2.5279)	ERR 0.267 (0.267)
+ * ERR 0.267 LOSS 2.528
+Epoch: [195][0/2]	Time 2.158 (2.158)	Data 0.005 (0.005)	Loss 0.1038 (0.1038)	ERR 0.058 (0.058)
+Training Error: 0.070  Loss: 0.142
+Test: [0/1]	Time 0.032 (0.032)	Loss 2.5027 (2.5027)	ERR 0.268 (0.268)
+ * ERR 0.268 LOSS 2.503
+Epoch: [196][0/2]	Time 2.212 (2.212)	Data 0.005 (0.005)	Loss 0.1104 (0.1104)	ERR 0.062 (0.062)
+Training Error: 0.060  Loss: 0.102
+Test: [0/1]	Time 0.028 (0.028)	Loss 2.8615 (2.8615)	ERR 0.279 (0.279)
+ * ERR 0.279 LOSS 2.861
+Epoch: [197][0/2]	Time 2.087 (2.087)	Data 0.006 (0.006)	Loss 0.1621 (0.1621)	ERR 0.083 (0.083)
+Training Error: 0.080  Loss: 0.150
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.5875 (2.5875)	ERR 0.270 (0.270)
+ * ERR 0.270 LOSS 2.588
+Epoch: [198][0/2]	Time 2.020 (2.020)	Data 0.005 (0.005)	Loss 0.0928 (0.0928)	ERR 0.057 (0.057)
+Training Error: 0.066  Loss: 0.154
+Test: [0/1]	Time 0.029 (0.029)	Loss 2.3451 (2.3451)	ERR 0.291 (0.291)
+ * ERR 0.291 LOSS 2.345
+Epoch: [199][0/2]	Time 2.071 (2.071)	Data 0.004 (0.004)	Loss 0.1841 (0.1841)	ERR 0.098 (0.098)
+Training Error: 0.095  Loss: 0.179
+Test: [0/1]	Time 0.030 (0.030)	Loss 2.4121 (2.4121)	ERR 0.275 (0.275)
+ * ERR 0.275 LOSS 2.412
+---------Evaluate Model on Test Set---------------
+Test: [0/1]	Time 0.043 (0.043)	Loss 0.6228 (0.6228)	ERR 0.124 (0.124)
+Test error per property: 0.12429026
+Test loss per property: 0.62276953
+ ** ERR 0.124 LOSS 0.623
+Best Error is:  0.22463612258434296
+2021-06-19 09:19:16.658774
+Time taken  542.8504817485809

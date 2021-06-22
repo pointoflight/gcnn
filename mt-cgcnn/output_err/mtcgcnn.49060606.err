@@ -1,0 +1,2 @@
+/var/spool/slurmd/job49060606/slurm_script: line 33: 18167 Killed                  python init.py
+slurmstepd: error: Detected 1 oom-kill event(s) in step 49060606.batch cgroup. Some of your processes may have been killed by the cgroup out-of-memory handler.

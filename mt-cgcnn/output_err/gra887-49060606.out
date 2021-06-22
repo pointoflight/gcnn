@@ -1,0 +1,8 @@
+Starting run at: Fri Jun 11 18:19:40 EDT 2021
+#!/bin/bash
+#SBATCH --gres=gpu:1
+#SBATCH --nodes=1 
+#SBATCH --cpus-per-task=2
+#SBATCH --mem=92M
+#SBATCH --time=0-00:15
+Program finished with exit code 0 at: Fri Jun 11 18:22:23 EDT 2021
